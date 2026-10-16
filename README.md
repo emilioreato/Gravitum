@@ -6,21 +6,24 @@
 
 Gravitum permite experimentar con sistemas de varios cuerpos: ajusta sus velocidades, observa cómo interactúan y cambia la forma de ver el campo.
 
-## Choque múltiple
+## Choques y campo gravitatorio
 
-Diez cuerpos de distintos tamaños comparten la escena: varios están en contacto y sus campos gravitatorios se superponen.
+Diez cuerpos de distintos tamaños se acercan y colisionan; sus campos se superponen en la primera captura. La segunda oculta los discos para destacar el campo de otra escena de diez cuerpos, comparado con las cuatro paletas disponibles.
 
-<p align="center">
-  <img src="docs/assets/gravitum-chaos-collision.png" alt="Diez cuerpos de distintos tamaños, varios en contacto, rodeados por campos gravitatorios rojos, naranjas y blancos que se superponen sobre un fondo oscuro." width="100%">
-</p>
-
-## Campo en dos paletas
-
-En ambas capturas se ocultan los cuerpos sólidos para destacar únicamente el gradiente gravitatorio. Es el mismo sistema de cuatro cuerpos, en dos paletas. Las capturas se obtuvieron a 1536 × 960.
-
-| Paleta oscura · solo el campo | Paleta clara · solo el campo |
-| --- | --- |
-| ![Gradiente del campo gravitatorio en paleta oscura, sin cuerpos sólidos visibles.](docs/assets/gravitum-dark-field.png) | ![Gradiente del campo gravitatorio en paleta clara, sin cuerpos sólidos visibles.](docs/assets/gravitum-light-field.png) |
+<table width="100%">
+  <tr>
+    <th width="50%">Colisiones múltiples</th>
+    <th width="50%">El campo en cuatro paletas</th>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="docs/assets/gravitum-chaos-collision.png" alt="Diez cuerpos de distintos tamaños chocan en una escena oscura; sus campos gravitatorios rojos, naranjas y blancos se superponen." width="100%">
+    </td>
+    <td width="50%" valign="top">
+      <img src="docs/assets/gravitum-field-palettes.jpg" alt="La misma escena de diez cuerpos sin los discos visibles, comparada en las paletas rojo y ámbar, blanco y rojo, violeta y hielo, y azul y dorado." width="100%">
+    </td>
+  </tr>
+</table>
 
 ## De dos cuerpos a muchos
 
@@ -82,4 +85,4 @@ python -m pip install pygame numpy opencv-python scipy numba pywin32
 python files\main.py
 ```
 
-La escena principal se preparó con diez cuerpos del simulador y se renderizó a 1920 × 1200. README y recursos visuales preparados con asistencia de IA; el código del proyecto no se modificó.
+La escena de colisión se renderizó a 1920 × 1200. La lámina de campo se generó con el renderizador de Gravitum. README y recursos visuales preparados con asistencia de IA; el código del proyecto no se modificó.
