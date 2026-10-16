@@ -8,11 +8,11 @@ Gravitum permite experimentar con sistemas de varios cuerpos: ajusta sus velocid
 
 ## Campo en dos paletas
 
-La captura oscura oculta los cuerpos para destacar el campo; la clara los muestra como referencia. Ambas se capturaron a 1536 × 960.
+En ambas capturas se ocultan los cuerpos sólidos para destacar únicamente el gradiente gravitatorio. Es el mismo sistema de cuatro cuerpos, en dos paletas. Las capturas se obtuvieron a 1536 × 960.
 
-| Paleta oscura · solo el campo | Paleta clara · campo y cuerpos |
+| Paleta oscura · solo el campo | Paleta clara · solo el campo |
 | --- | --- |
-| ![Campo gravitatorio en paleta oscura, con los cuerpos ocultos para mostrar solo el degradado de intensidad.](docs/assets/gravitum-dark-field.png) | ![Campo gravitatorio en paleta clara con los cuerpos visibles sobre el degradado.](docs/assets/gravitum-light-field.png) |
+| ![Gradiente del campo gravitatorio en paleta oscura, sin cuerpos sólidos visibles.](docs/assets/gravitum-dark-field.png) | ![Gradiente del campo gravitatorio en paleta clara, sin cuerpos sólidos visibles.](docs/assets/gravitum-light-field.png) |
 
 ## De dos cuerpos a muchos
 
@@ -30,21 +30,21 @@ Con más entidades, las zonas de intensidad se combinan alrededor de todo el sis
 
 ## Colisiones y órbitas
 
-En esta secuencia, dos cuerpos se acercan con velocidades iniciales, colisionan y continúan su movimiento. El GIF está reducido a 768 × 480 para que cargue con más facilidad.
+La secuencia muestra dos cuerpos que se aproximan, entran en contacto y se separan tras la colisión. El GIF conserva 1024 × 640 píxeles para que el movimiento se lea con claridad sin cargar la captura completa.
 
 <p align="center">
-  <img src="docs/assets/gravitum-collision.gif" alt="Animación de dos cuerpos que se aproximan, colisionan y se separan dentro del campo gravitatorio." width="768">
+  <img src="docs/assets/gravitum-collision.gif" alt="Dos cuerpos se aproximan, colisionan y rebotan mientras cambia el campo gravitatorio." width="1024">
 </p>
 
 ![Instante de contacto entre dos cuerpos durante una colisión, con el campo gravitatorio visible.](docs/assets/gravitum-collision.png)
 
-El modo orbital asistido asigna una velocidad inicial tangencial al segundo cuerpo. El GIF muestra un tramo de esa evolución en el simulador.
+El modo orbital asistido asigna una velocidad inicial tangencial al cuerpo pequeño. La animación recorre una vuelta completa alrededor del cuerpo central; incluye 96 fotogramas a 1024 × 640. La captura fija muestra la escena aproximadamente a un cuarto de vuelta.
 
 <p align="center">
-  <img src="docs/assets/gravitum-orbit.gif" alt="Animación de un cuerpo pequeño recorriendo una trayectoria alrededor de un cuerpo mayor, con el campo gravitatorio visible." width="768">
+  <img src="docs/assets/gravitum-orbit.gif" alt="Vuelta completa de un cuerpo pequeño alrededor de una masa central, con el campo gravitatorio visible." width="1024">
 </p>
 
-![Dos cuerpos en movimiento orbital asistido, rodeados por sus zonas de intensidad gravitatoria.](docs/assets/gravitum-orbit.png)
+![Captura del modo orbital asistido aproximadamente a un cuarto de vuelta, con el campo gravitatorio visible.](docs/assets/gravitum-orbit.png)
 
 ## Cómo probarlo
 
