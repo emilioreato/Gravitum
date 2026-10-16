@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="files/Media/icon.png" alt="Icono de Gravitum" width="88">
+  <img src="docs/assets/gravitum-logo-white.png" alt="Icono blanco de Gravitum" width="88">
   <h1>Gravitum</h1>
   <p>Un simulador interactivo 2D para crear cuerpos, observar su atracción y explorar el campo gravitatorio.</p>
 </div>
