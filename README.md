@@ -16,12 +16,6 @@ En ambas capturas se ocultan los cuerpos sólidos para destacar únicamente el g
 
 ## De dos cuerpos a muchos
 
-La cuadrícula se puede activar o quitar según lo que quieras observar. Las dos imágenes muestran la misma configuración de dos cuerpos.
-
-| Con cuadrícula | Sin cuadrícula |
-| --- | --- |
-| ![Dos cuerpos y sus zonas de intensidad gravitatoria con la cuadrícula activada.](docs/assets/gravitum-few-bodies-grid.png) | ![La misma escena de dos cuerpos y el campo gravitatorio, sin cuadrícula.](docs/assets/gravitum-few-bodies-no-grid.png) |
-
 Con más entidades, las zonas de intensidad se combinan alrededor de todo el sistema:
 
 <p align="center">
