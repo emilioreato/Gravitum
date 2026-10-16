@@ -6,6 +6,14 @@
 
 Gravitum permite experimentar con sistemas de varios cuerpos: ajusta sus velocidades, observa cómo interactúan y cambia la forma de ver el campo.
 
+## Choque múltiple
+
+Diez cuerpos de distintos tamaños comparten la escena: varios están en contacto y sus campos gravitatorios se superponen.
+
+<p align="center">
+  <img src="docs/assets/gravitum-chaos-collision.png" alt="Diez cuerpos de distintos tamaños, varios en contacto, rodeados por campos gravitatorios rojos, naranjas y blancos que se superponen sobre un fondo oscuro." width="100%">
+</p>
+
 ## Campo en dos paletas
 
 En ambas capturas se ocultan los cuerpos sólidos para destacar únicamente el gradiente gravitatorio. Es el mismo sistema de cuatro cuerpos, en dos paletas. Las capturas se obtuvieron a 1536 × 960.
@@ -74,4 +82,4 @@ python -m pip install pygame numpy opencv-python scipy numba pywin32
 python files\main.py
 ```
 
-README y recursos visuales preparados con asistencia de IA. Las capturas se obtuvieron ejecutando el simulador; el código del proyecto no se modificó.
+La escena principal se preparó con diez cuerpos del simulador y se renderizó a 1920 × 1200. README y recursos visuales preparados con asistencia de IA; el código del proyecto no se modificó.
