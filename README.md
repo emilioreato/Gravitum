@@ -5,7 +5,7 @@
 </div>
 
 <p align="center">
-  <img src="docs/assets/gravitum-chaos-collision.gif" alt="Animación del campo gravitatorio de diez cuerpos separados que se acercan, interactúan y se fusionan; solo se ve el degradado del campo." width="100%">
+  <img src="docs/assets/gravitum-chaos-collision.gif" alt="Ocho cuerpos de tamaños variados, distribuidos de forma irregular y en movimiento; solo se ve el degradado suave de sus campos gravitatorios." width="100%">
 </p>
 
 Gravitum permite experimentar con sistemas de varios cuerpos: ajustar sus velocidades, observar cómo interactúan y cambiar la forma de ver el campo.
@@ -29,24 +29,7 @@ Cambia la paleta y añade cuerpos para ver cómo se superponen sus campos. La cu
   </tr>
 </table>
 
-## Colisiones y órbitas
-
-La secuencia animada muestra dos cuerpos que se aproximan y rebotan; al lado, una captura fija permite ver el instante del choque con más detalle.
-
-<table width="100%">
-  <tr>
-    <th width="50%">Dos cuerpos en movimiento</th>
-    <th width="50%">El instante del contacto</th>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="docs/assets/gravitum-collision.gif" alt="Dos cuerpos se aproximan, colisionan y rebotan mientras cambia el campo gravitatorio." width="100%">
-    </td>
-    <td width="50%" valign="top">
-      <img src="docs/assets/gravitum-collision.png" alt="Captura de dos cuerpos en contacto durante una colisión, con el campo gravitatorio y la cuadrícula visibles." width="100%">
-    </td>
-  </tr>
-</table>
+## Órbitas
 
 El modo orbital asistido asigna una velocidad inicial tangencial al cuerpo seleccionado. La animación de la derecha muestra una órbita binaria más cerrada, con ambas masas girando alrededor de su centro de masa.
 
@@ -61,6 +44,25 @@ El modo orbital asistido asigna una velocidad inicial tangencial al cuerpo selec
     </td>
     <td width="50%" valign="top">
       <img src="docs/assets/gravitum-orbit-binary.gif" alt="Dos cuerpos próximos orbitan en una trayectoria binaria cerrada mientras cambia el campo gravitatorio." width="100%">
+    </td>
+  </tr>
+</table>
+
+## Colisiones
+
+La secuencia animada muestra dos cuerpos que se aproximan y rebotan; al lado, una captura fija permite ver el instante del choque con más detalle.
+
+<table width="100%">
+  <tr>
+    <th width="50%">Dos cuerpos en movimiento</th>
+    <th width="50%">El instante del contacto</th>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="docs/assets/gravitum-collision.gif" alt="Dos cuerpos se aproximan, colisionan y rebotan mientras cambia el campo gravitatorio." width="100%">
+    </td>
+    <td width="50%" valign="top">
+      <img src="docs/assets/gravitum-collision.png" alt="Captura de dos cuerpos en contacto durante una colisión, con el campo gravitatorio y la cuadrícula visibles." width="100%">
     </td>
   </tr>
 </table>
