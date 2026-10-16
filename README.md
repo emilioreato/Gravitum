@@ -6,48 +6,68 @@
 
 Gravitum permite experimentar con sistemas de varios cuerpos: ajusta sus velocidades, observa cómo interactúan y cambia la forma de ver el campo.
 
-## Choques y campo gravitatorio
+## Diez cuerpos en colisión
 
-Diez cuerpos de distintos tamaños se acercan y colisionan; sus campos se superponen en la primera captura. La segunda oculta los discos para destacar el campo de otra escena de diez cuerpos, comparado con las cuatro paletas disponibles.
+Diez cuerpos de distintos tamaños ya están en movimiento desde el primer fotograma. Sus campos se superponen mientras chocan y se fusionan.
+
+<p align="center">
+  <img src="docs/assets/gravitum-chaos-collision.gif" alt="Animación: diez cuerpos de distintos tamaños colisionan y se fusionan mientras sus campos gravitatorios interactúan." width="100%">
+</p>
+
+## Más cuerpos, cuatro paletas
+
+Cambia la paleta y añade cuerpos para ver cómo se superponen sus campos. La cuadrícula también se puede activar para orientar las posiciones.
 
 <table width="100%">
   <tr>
-    <th width="50%">Colisiones múltiples</th>
-    <th width="50%">El campo en cuatro paletas</th>
+    <th width="50%">Cuatro paletas de campo</th>
+    <th width="50%">Doce cuerpos y cuadrícula</th>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <img src="docs/assets/gravitum-chaos-collision.png" alt="Diez cuerpos de distintos tamaños chocan en una escena oscura; sus campos gravitatorios rojos, naranjas y blancos se superponen." width="100%">
+      <img src="docs/assets/gravitum-field-palettes.jpg" alt="La misma escena de diez cuerpos en las paletas rojo y ámbar, blanco y rojo, violeta y hielo, y azul y dorado." width="100%">
     </td>
     <td width="50%" valign="top">
-      <img src="docs/assets/gravitum-field-palettes.jpg" alt="La misma escena de diez cuerpos sin los discos visibles, comparada en las paletas rojo y ámbar, blanco y rojo, violeta y hielo, y azul y dorado." width="100%">
+      <img src="docs/assets/gravitum-many-bodies.png" alt="Doce cuerpos distribuidos en la escena, con sus campos y la cuadrícula activada." width="100%">
     </td>
   </tr>
 </table>
 
-## De dos cuerpos a muchos
-
-Con más entidades, las zonas de intensidad se combinan alrededor de todo el sistema:
-
-<p align="center">
-  <img src="docs/assets/gravitum-many-bodies.png" alt="Doce cuerpos distribuidos en una escena con cuadrícula y el campo gravitatorio visible alrededor de cada uno." width="100%">
-</p>
-
 ## Colisiones y órbitas
 
-La secuencia muestra dos cuerpos que se aproximan, entran en contacto y se separan tras la colisión. El GIF conserva 1024 × 640 píxeles para que el movimiento se lea con claridad sin cargar la captura completa.
+La secuencia animada muestra dos cuerpos que se aproximan y rebotan; al lado, una captura fija permite ver el instante del choque con más detalle.
 
-<p align="center">
-  <img src="docs/assets/gravitum-collision.gif" alt="Dos cuerpos se aproximan, colisionan y rebotan mientras cambia el campo gravitatorio." width="1024">
-</p>
+<table width="100%">
+  <tr>
+    <th width="50%">Dos cuerpos en movimiento</th>
+    <th width="50%">El instante del contacto</th>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="docs/assets/gravitum-collision.gif" alt="Dos cuerpos se aproximan, colisionan y rebotan mientras cambia el campo gravitatorio." width="100%">
+    </td>
+    <td width="50%" valign="top">
+      <img src="docs/assets/gravitum-collision.png" alt="Captura de dos cuerpos en contacto durante una colisión, con el campo gravitatorio y la cuadrícula visibles." width="100%">
+    </td>
+  </tr>
+</table>
 
-![Instante de contacto entre dos cuerpos durante una colisión, con el campo gravitatorio visible.](docs/assets/gravitum-collision.png)
+El modo orbital asistido asigna una velocidad inicial tangencial al cuerpo seleccionado. La primera vista muestra un cuerpo alrededor de una masa central; la segunda, dos cuerpos que orbitan su centro de masa, con otra paleta y la cuadrícula.
 
-El modo orbital asistido asigna una velocidad inicial tangencial al cuerpo pequeño. El GIF muestra una vuelta completa alrededor del cuerpo central, en 96 fotogramas a 1024 × 640.
-
-<p align="center">
-  <img src="docs/assets/gravitum-orbit.gif" alt="Vuelta completa de un cuerpo pequeño alrededor de una masa central, con el campo gravitatorio visible." width="1024">
-</p>
+<table width="100%">
+  <tr>
+    <th width="50%">Órbita asistida</th>
+    <th width="50%">Dos cuerpos · azul y dorado</th>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="docs/assets/gravitum-orbit.gif" alt="Un cuerpo pequeño completa una órbita alrededor de una masa central, con el campo gravitatorio visible." width="100%">
+    </td>
+    <td width="50%" valign="top">
+      <img src="docs/assets/gravitum-orbit-binary.png" alt="Dos cuerpos de masas distintas orbitan alrededor de su centro de masa, con el campo azul y dorado y la cuadrícula activada." width="100%">
+    </td>
+  </tr>
+</table>
 
 ## Cómo probarlo
 
@@ -85,4 +105,4 @@ python -m pip install pygame numpy opencv-python scipy numba pywin32
 python files\main.py
 ```
 
-La escena de colisión se renderizó a 1920 × 1200. La lámina de campo se generó con el renderizador de Gravitum. README y recursos visuales preparados con asistencia de IA; el código del proyecto no se modificó.
+README y recursos visuales preparados con asistencia de IA a partir del proyecto. El código de Gravitum no se modificó.
