@@ -32,13 +32,11 @@ La secuencia muestra dos cuerpos que se aproximan, entran en contacto y se separ
 
 ![Instante de contacto entre dos cuerpos durante una colisión, con el campo gravitatorio visible.](docs/assets/gravitum-collision.png)
 
-El modo orbital asistido asigna una velocidad inicial tangencial al cuerpo pequeño. La animación recorre una vuelta completa alrededor del cuerpo central; incluye 96 fotogramas a 1024 × 640. La captura fija muestra la escena aproximadamente a un cuarto de vuelta.
+El modo orbital asistido asigna una velocidad inicial tangencial al cuerpo pequeño. El GIF muestra una vuelta completa alrededor del cuerpo central, en 96 fotogramas a 1024 × 640.
 
 <p align="center">
   <img src="docs/assets/gravitum-orbit.gif" alt="Vuelta completa de un cuerpo pequeño alrededor de una masa central, con el campo gravitatorio visible." width="1024">
 </p>
-
-![Captura del modo orbital asistido aproximadamente a un cuarto de vuelta, con el campo gravitatorio visible.](docs/assets/gravitum-orbit.png)
 
 ## Cómo probarlo
 
