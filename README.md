@@ -24,7 +24,7 @@ Cambia la paleta y añade cuerpos para ver cómo se superponen sus campos. La cu
       <img src="docs/assets/gravitum-field-palettes.jpg" alt="La misma escena de diez cuerpos en las paletas rojo y ámbar, blanco y rojo, violeta y hielo, y azul y dorado." width="100%">
     </td>
     <td width="50%" valign="top">
-      <img src="docs/assets/gravitum-many-bodies.png" alt="Doce cuerpos distribuidos en la escena, con sus campos y la cuadrícula activada." width="100%">
+      <img src="docs/assets/gravitum-many-bodies.gif" alt="Animación: doce cuerpos parten separados, avanzan en una dirección similar y se reúnen en colisiones sobre la cuadrícula." width="100%">
     </td>
   </tr>
 </table>
