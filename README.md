@@ -4,15 +4,11 @@
   <p>Un simulador interactivo 2D para crear cuerpos, observar su atracción y explorar el campo gravitatorio.</p>
 </div>
 
-Gravitum permite experimentar con sistemas de varios cuerpos: ajusta sus velocidades, observa cómo interactúan y cambia la forma de ver el campo.
-
-## Diez cuerpos en colisión
-
-Diez cuerpos de distintos tamaños ya están en movimiento desde el primer fotograma. Sus campos se superponen mientras chocan y se fusionan.
-
 <p align="center">
-  <img src="docs/assets/gravitum-chaos-collision.gif" alt="Animación: diez cuerpos de distintos tamaños colisionan y se fusionan mientras sus campos gravitatorios interactúan." width="100%">
+  <img src="docs/assets/gravitum-chaos-collision.gif" alt="Animación del campo gravitatorio de diez cuerpos separados que se acercan, interactúan y se fusionan; solo se ve el degradado del campo." width="100%">
 </p>
+
+Gravitum permite experimentar con sistemas de varios cuerpos: ajustar sus velocidades, observar cómo interactúan y cambiar la forma de ver el campo.
 
 ## Más cuerpos, cuatro paletas
 
@@ -52,19 +48,19 @@ La secuencia animada muestra dos cuerpos que se aproximan y rebotan; al lado, un
   </tr>
 </table>
 
-El modo orbital asistido asigna una velocidad inicial tangencial al cuerpo seleccionado. La primera vista muestra un cuerpo alrededor de una masa central; la segunda, dos cuerpos que orbitan su centro de masa, con otra paleta y la cuadrícula.
+El modo orbital asistido asigna una velocidad inicial tangencial al cuerpo seleccionado. La animación de la derecha muestra una órbita binaria más cerrada, con ambas masas girando alrededor de su centro de masa.
 
 <table width="100%">
   <tr>
     <th width="50%">Órbita asistida</th>
-    <th width="50%">Dos cuerpos · azul y dorado</th>
+    <th width="50%">Órbita binaria</th>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <img src="docs/assets/gravitum-orbit.gif" alt="Un cuerpo pequeño completa una órbita alrededor de una masa central, con el campo gravitatorio visible." width="100%">
     </td>
     <td width="50%" valign="top">
-      <img src="docs/assets/gravitum-orbit-binary.png" alt="Dos cuerpos de masas distintas orbitan alrededor de su centro de masa, con el campo azul y dorado y la cuadrícula activada." width="100%">
+      <img src="docs/assets/gravitum-orbit-binary.gif" alt="Dos cuerpos próximos orbitan en una trayectoria binaria cerrada mientras cambia el campo gravitatorio." width="100%">
     </td>
   </tr>
 </table>
