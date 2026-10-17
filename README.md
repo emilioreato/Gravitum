@@ -5,7 +5,7 @@
 </div>
 
 <p align="center">
-  <img src="docs/assets/gravitum-chaos-collision.gif" alt="Ocho cuerpos de tamaños variados, distribuidos de forma irregular y en movimiento; solo se ve el degradado suave de sus campos gravitatorios." width="100%">
+  <img src="docs/assets/gravitum-chaos-collision.gif" alt="Ocho cuerpos de tamaños distintos se desplazan, chocan y se fusionan; solo se muestran los degradados de sus campos gravitatorios." width="100%">
 </p>
 
 Gravitum permite experimentar con sistemas de varios cuerpos: ajustar sus velocidades, observar cómo interactúan y cambiar la forma de ver el campo.
@@ -50,19 +50,19 @@ El modo orbital asistido asigna una velocidad inicial tangencial al cuerpo selec
 
 ## Colisiones
 
-La secuencia animada muestra dos cuerpos que se aproximan y rebotan; al lado, una captura fija permite ver el instante del choque con más detalle.
+La primera animación muestra dos cuerpos que se aproximan y rebotan; la segunda cambia a la paleta violeta y sigue tres cuerpos que orbitan hasta fusionarse.
 
 <table width="100%">
   <tr>
     <th width="50%">Dos cuerpos en movimiento</th>
-    <th width="50%">El instante del contacto</th>
+    <th width="50%">Tres cuerpos, una fusión</th>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <img src="docs/assets/gravitum-collision.gif" alt="Dos cuerpos se aproximan, colisionan y rebotan mientras cambia el campo gravitatorio." width="100%">
     </td>
     <td width="50%" valign="top">
-      <img src="docs/assets/gravitum-collision.png" alt="Captura de dos cuerpos en contacto durante una colisión, con el campo gravitatorio y la cuadrícula visibles." width="100%">
+      <img src="docs/assets/gravitum-three-body-violet-merge.gif" alt="Animación en paleta violeta: tres cuerpos orbitan mientras sus campos se superponen y terminan fusionándose en uno." width="100%">
     </td>
   </tr>
 </table>
