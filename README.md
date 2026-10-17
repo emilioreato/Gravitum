@@ -24,7 +24,7 @@ Cambia la paleta y añade cuerpos para ver cómo se superponen sus campos. La cu
       <img src="docs/assets/gravitum-field-palettes.jpg" alt="La misma escena de diez cuerpos en las paletas rojo y ámbar, blanco y rojo, violeta y hielo, y azul y dorado." width="100%">
     </td>
     <td width="50%" valign="top">
-      <img src="docs/assets/gravitum-many-bodies.gif" alt="Animación: doce cuerpos parten separados, avanzan en una dirección similar y se reúnen en colisiones sobre la cuadrícula." width="100%">
+      <img src="docs/assets/gravitum-many-bodies.gif" alt="Animación: doce cuerpos parten dispersos con más velocidad, avanzan en dos direcciones próximas y chocan sobre la cuadrícula." width="100%">
     </td>
   </tr>
 </table>
@@ -40,7 +40,7 @@ El modo orbital asistido asigna una velocidad inicial tangencial al cuerpo selec
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <img src="docs/assets/gravitum-orbit.gif" alt="Un cuerpo pequeño completa una órbita alrededor de una masa central, con el campo gravitatorio visible." width="100%">
+      <img src="docs/assets/gravitum-orbit.gif" alt="Animación del campo gravitatorio en modo blanco: un cuerpo orbita una masa central, sin discos sólidos." width="100%">
     </td>
     <td width="50%" valign="top">
       <img src="docs/assets/gravitum-orbit-binary.gif" alt="Dos cuerpos próximos orbitan en una trayectoria binaria cerrada mientras cambia el campo gravitatorio." width="100%">
