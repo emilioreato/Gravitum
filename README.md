@@ -104,3 +104,5 @@ python files\main.py
 ```
 
 README y recursos visuales preparados con asistencia de IA a partir del proyecto. El código de Gravitum no se modificó.
+
+> **Nota sobre el modelo gravitatorio:** La atracción y el campo se calculan tratando cada cuerpo como una masa puntual concentrada en su centro. El radio se usa para dibujarlo y detectar colisiones, pero no para distribuir la masa en su interior. Por eso, Gravitum no modela el campo dentro de una esfera de densidad uniforme, cuyo módulo crecería linealmente desde el centro.
