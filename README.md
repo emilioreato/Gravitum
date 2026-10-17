@@ -5,7 +5,7 @@
 </div>
 
 <p align="center">
-  <img src="docs/assets/gravitum-chaos-collision.gif" alt="Ocho cuerpos de distintos tamaños se desplazan de forma irregular; solo se muestran los degradados de sus campos gravitatorios." width="100%">
+  <img src="docs/assets/gravitum-chaos-collision.gif" alt="Ocho cuerpos de distintos tamaños se desplazan de forma irregular; solo se muestran los degradados de sus campos gravitatorios." width="75%">
 </p>
 
 Gravitum permite experimentar con sistemas de varios cuerpos: ajustar sus velocidades, observar cómo interactúan y cambiar la forma de ver el campo.
