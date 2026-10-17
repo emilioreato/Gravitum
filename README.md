@@ -54,7 +54,7 @@ La primera animación muestra dos cuerpos que se aproximan y rebotan; la segunda
 
 <table width="100%">
   <tr>
-    <th width="50%">Dos cuerpos en movimiento</th>
+    <th width="50%">Colisión</th>
     <th width="50%">Tres cuerpos, una fusión</th>
   </tr>
   <tr>
